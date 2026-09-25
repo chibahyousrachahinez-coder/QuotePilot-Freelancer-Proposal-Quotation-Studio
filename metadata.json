@@ -1,0 +1,6 @@
+{
+  "name": "QuotePilot - Proposal & Quotation Builder",
+  "description": "Turn client requests into professional proposals. Create polished quotes, define your scope, calculate pricing, and send client-ready proposals in minutes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
