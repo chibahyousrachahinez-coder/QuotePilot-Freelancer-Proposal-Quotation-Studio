@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" width="100%" height="100%" style="background-color: #FAF9F6; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <defs>
+    <filter id="boxShadow" x="-3%" y="-3%" width="106%" height="110%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.05"/>
+    </filter>
+  </defs>
+
+  <text x="40" y="40" font-size="12" font-weight="700" fill="#2563EB" letter-spacing="2">DATA SOVEREIGNTY ARCHITECTURE</text>
+  <text x="40" y="70" font-size="22" font-weight="800" fill="#18181B">Local Storage &amp; Portable JSON Backup Engine</text>
+
+  <!-- Left: Browser LocalStorage Box -->
+  <g transform="translate(40, 105)" filter="url(#boxShadow)">
+    <rect width="380" height="280" rx="14" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1.5"/>
+    <rect width="380" height="6" rx="3" fill="#2563EB"/>
+    <text x="25" y="38" font-size="14" font-weight="700" fill="#18181B">Browser LocalStorage Engine</text>
+    <text x="25" y="58" font-size="11" fill="#71717A">100% Client-Side Persistent Store (No External Servers)</text>
+    <line x1="25" y1="75" x2="355" y2="75" stroke="#F4F4F5" stroke-width="1.5"/>
+
+    <!-- Schema Keys -->
+    <g transform="translate(25, 90)">
+      <rect width="330" height="30" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="12" y="20" font-size="10" font-family="monospace" font-weight="700" fill="#2563EB">quotepilot_quotes_v1</text>
+      <text x="318" y="20" font-size="10" fill="#64748B" text-anchor="end">Proposals &amp; Items</text>
+
+      <rect y="40" width="330" height="30" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="12" y="60" font-size="10" font-family="monospace" font-weight="700" fill="#2563EB">quotepilot_clients_v1</text>
+      <text x="318" y="60" font-size="10" fill="#64748B" text-anchor="end">Client CRM Records</text>
+
+      <rect y="80" width="330" height="30" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="12" y="100" font-size="10" font-family="monospace" font-weight="700" fill="#2563EB">quotepilot_templates_v1</text>
+      <text x="318" y="100" font-size="10" fill="#64748B" text-anchor="end">Custom Blueprints</text>
+
+      <rect y="120" width="330" height="30" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="12" y="140" font-size="10" font-family="monospace" font-weight="700" fill="#2563EB">quotepilot_packages_v1</text>
+      <text x="318" y="140" font-size="10" fill="#64748B" text-anchor="end">Pricing Tiers</text>
+
+      <rect y="160" width="330" height="30" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="12" y="180" font-size="10" font-family="monospace" font-weight="700" fill="#2563EB">quotepilot_settings_v1</text>
+      <text x="318" y="180" font-size="10" fill="#64748B" text-anchor="end">Branding &amp; Taxes</text>
+    </g>
+  </g>
+
+  <!-- Middle Transition Arrows -->
+  <g transform="translate(435, 190)">
+    <!-- Export Arrow -->
+    <path d="M 0 20 L 50 20" stroke="#2563EB" stroke-width="2.5"/>
+    <polygon points="50,15 60,20 50,25" fill="#2563EB"/>
+    <text x="30" y="10" font-size="9" font-weight="700" fill="#2563EB" text-anchor="middle">Export JSON</text>
+
+    <!-- Import Arrow -->
+    <path d="M 60 70 L 10 70" stroke="#16A34A" stroke-width="2.5"/>
+    <polygon points="10,65 0,70 10,75" fill="#16A34A"/>
+    <text x="30" y="90" font-size="9" font-weight="700" fill="#16A34A" text-anchor="middle">Import JSON</text>
+  </g>
+
+  <!-- Right: Standalone JSON File -->
+  <g transform="translate(510, 105)" filter="url(#boxShadow)">
+    <rect width="370" height="280" rx="14" fill="#18181B" stroke="#27272A" stroke-width="1.5"/>
+    <rect width="370" height="6" rx="3" fill="#10B981"/>
+    <text x="25" y="38" font-size="14" font-weight="700" fill="#FFFFFF">quotepilot_backup_*.json</text>
+    <text x="25" y="58" font-size="11" fill="#A1A1AA">Portable, unencrypted, machine-readable backup</text>
+    <line x1="25" y1="75" x2="345" y2="75" stroke="#27272A" stroke-width="1.5"/>
+
+    <g transform="translate(25, 95)">
+      <rect width="320" height="155" rx="8" fill="#09090B"/>
+      <text x="15" y="24" font-size="10" font-family="monospace" fill="#60A5FA">{</text>
+      <text x="28" y="44" font-size="10" font-family="monospace" fill="#93C5FD">"app": "QuotePilot",</text>
+      <text x="28" y="64" font-size="10" font-family="monospace" fill="#93C5FD">"version": "1.0",</text>
+      <text x="28" y="84" font-size="10" font-family="monospace" fill="#34D399">"quotes": [ ... ],</text>
+      <text x="28" y="104" font-size="10" font-family="monospace" fill="#34D399">"clients": [ ... ],</text>
+      <text x="28" y="124" font-size="10" font-family="monospace" fill="#FBBF24">"settings": { ... }</text>
+      <text x="15" y="144" font-size="10" font-family="monospace" fill="#60A5FA">}</text>
+    </g>
+  </g>
+</svg>

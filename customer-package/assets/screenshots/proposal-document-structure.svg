@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" width="100%" height="100%" style="background-color: #FAF9F6; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <defs>
+    <filter id="docShadow" x="-2%" y="-2%" width="104%" height="108%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <text x="50" y="40" font-size="12" font-weight="700" fill="#2563EB" letter-spacing="2">DOCUMENT ANATOMY BLUEPRINT</text>
+  <text x="50" y="68" font-size="22" font-weight="800" fill="#18181B">QuotePilot Executive Proposal Architecture</text>
+
+  <!-- Document Canvas -->
+  <g transform="translate(50, 95)" filter="url(#docShadow)">
+    <rect width="520" height="540" rx="12" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1.5"/>
+
+    <!-- Document Header -->
+    <rect x="25" y="20" width="30" height="30" rx="6" fill="#18181B"/>
+    <text x="40" y="39" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">QP</text>
+    <text x="65" y="32" font-size="13" font-weight="700" fill="#18181B">Vanguard Digital Studio</text>
+    <text x="65" y="46" font-size="10" fill="#71717A">Alex Morgan • alex@vanguard.io</text>
+
+    <text x="495" y="30" font-size="9" font-family="monospace" font-weight="700" fill="#A1A1AA" text-anchor="end">PROJECT PROPOSAL</text>
+    <text x="495" y="45" font-size="12" font-family="monospace" font-weight="800" fill="#18181B" text-anchor="end">QP-2026-042</text>
+    <line x1="25" y1="65" x2="495" y2="65" stroke="#F4F4F5" stroke-width="1.5"/>
+
+    <!-- Prepared For & Project Title -->
+    <text x="25" y="85" font-size="9" font-family="monospace" font-weight="700" fill="#2563EB">PROJECT NAME</text>
+    <text x="25" y="105" font-size="15" font-weight="800" fill="#18181B">SaaS Platform Design System</text>
+
+    <rect x="330" y="75" width="165" height="55" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="342" y="90" font-size="8" font-family="monospace" font-weight="700" fill="#94A3B8">PREPARED FOR</text>
+    <text x="342" y="104" font-size="11" font-weight="700" fill="#1E293B">Sarah Jenkins</text>
+    <text x="342" y="118" font-size="10" fill="#64748B">Acme Health Labs</text>
+
+    <!-- Services Table -->
+    <rect x="25" y="145" width="470" height="95" rx="8" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1"/>
+    <rect x="25" y="145" width="470" height="22" rx="8" fill="#F4F4F5"/>
+    <text x="35" y="160" font-size="9" font-family="monospace" font-weight="700" fill="#71717A">SERVICE &amp; DESCRIPTION</text>
+    <text x="350" y="160" font-size="9" font-family="monospace" font-weight="700" fill="#71717A" text-anchor="end">QTY</text>
+    <text x="415" y="160" font-size="9" font-family="monospace" font-weight="700" fill="#71717A" text-anchor="end">RATE</text>
+    <text x="485" y="160" font-size="9" font-family="monospace" font-weight="700" fill="#71717A" text-anchor="end">TOTAL</text>
+
+    <text x="35" y="182" font-size="10" font-weight="700" fill="#18181B">UI/UX Design Tokens &amp; Figma Library</text>
+    <text x="35" y="195" font-size="9" fill="#71717A">Responsive desktop and mobile component sets.</text>
+    <text x="350" y="188" font-size="10" font-family="monospace" fill="#52525B" text-anchor="end">1 proj</text>
+    <text x="415" y="188" font-size="10" font-family="monospace" fill="#52525B" text-anchor="end">$2,800</text>
+    <text x="485" y="188" font-size="11" font-family="monospace" font-weight="700" fill="#18181B" text-anchor="end">$2,800</text>
+
+    <line x1="25" y1="205" x2="495" y2="205" stroke="#F4F4F5" stroke-width="1"/>
+
+    <text x="35" y="222" font-size="10" font-weight="700" fill="#18181B">Interactive Clickable Prototype</text>
+    <text x="350" y="228" font-size="10" font-family="monospace" fill="#52525B" text-anchor="end">1 proj</text>
+    <text x="415" y="228" font-size="10" font-family="monospace" fill="#52525B" text-anchor="end">$1,400</text>
+    <text x="485" y="228" font-size="11" font-family="monospace" font-weight="700" fill="#18181B" text-anchor="end">$1,400</text>
+
+    <!-- Investment Card -->
+    <rect x="25" y="255" width="470" height="65" rx="10" fill="#18181B"/>
+    <text x="40" y="280" font-size="9" font-family="monospace" font-weight="700" fill="#A1A1AA">TOTAL INVESTMENT</text>
+    <text x="40" y="298" font-size="10" fill="#D4D4D8">All scoped deliverables &amp; handovers included.</text>
+    <text x="480" y="278" font-size="10" fill="#A1A1AA" text-anchor="end">Subtotal: $4,200</text>
+    <text x="480" y="306" font-size="20" font-family="monospace" font-weight="800" fill="#FFFFFF" text-anchor="end">$4,200</text>
+
+    <!-- Milestones -->
+    <rect x="25" y="335" width="225" height="48" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="35" y="352" font-size="10" font-weight="700" fill="#1E293B">Deposit: $2,100 (50%)</text>
+    <text x="35" y="367" font-size="9" fill="#64748B">Due upon proposal signing</text>
+
+    <rect x="270" y="335" width="225" height="48" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="280" y="352" font-size="10" font-weight="700" fill="#1E293B">Handover: $2,100 (50%)</text>
+    <text x="280" y="367" font-size="9" fill="#64748B">Due upon asset delivery</text>
+
+    <!-- Scope Safeguards -->
+    <text x="25" y="405" font-size="9" font-family="monospace" font-weight="700" fill="#16A34A">✓ WHAT'S INCLUDED</text>
+    <text x="25" y="422" font-size="9" fill="#52525B">• Figma token architecture</text>
+    <text x="25" y="437" font-size="9" fill="#52525B">• 2 Consolidated revision rounds</text>
+
+    <text x="270" y="405" font-size="9" font-family="monospace" font-weight="700" fill="#71717A">✕ WHAT'S NOT INCLUDED</text>
+    <text x="270" y="422" font-size="9" fill="#71717A">• Third-party font licensing</text>
+    <text x="270" y="437" font-size="9" fill="#71717A">• Production frontend code</text>
+
+    <!-- Sign-off Block -->
+    <rect x="25" y="460" width="470" height="55" rx="8" fill="#F4F4F5"/>
+    <text x="38" y="482" font-size="10" font-weight="700" fill="#18181B">Formal Digital Acceptance</text>
+    <text x="38" y="497" font-size="9" fill="#71717A">Digitally confirmed by Sarah Jenkins</text>
+    <rect x="365" y="473" width="115" height="28" rx="6" fill="#DCFCE7" stroke="#86EFAC" stroke-width="1"/>
+    <text x="422" y="491" font-size="9" font-weight="700" fill="#16A34A" text-anchor="middle">✓ Signed &amp; Active</text>
+  </g>
+
+  <!-- Explanatory Callout Pointers -->
+  <g transform="translate(600, 110)">
+    <rect width="260" height="100" rx="8" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+    <text x="15" y="25" font-size="11" font-weight="700" fill="#1E40AF">1. Studio Monogram &amp; ID</text>
+    <text x="15" y="45" font-size="10" fill="#3B82F6">Custom 1-4 character seal and tracking reference code (QP-2026-XXX) creates high visual trust.</text>
+
+    <g transform="translate(0, 120)">
+      <rect width="260" height="100" rx="8" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+      <text x="15" y="25" font-size="11" font-weight="700" fill="#166534">2. Scope Boundaries</text>
+      <text x="15" y="45" font-size="10" fill="#15803D">Side-by-side inclusion &amp; exclusion lists legally protect the freelancer from out-of-scope creep.</text>
+    </g>
+
+    <g transform="translate(0, 240)">
+      <rect width="260" height="100" rx="8" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+      <text x="15" y="25" font-size="11" font-weight="700" fill="#991B1B">3. Milestone Schedule</text>
+      <text x="15" y="45" font-size="10" fill="#B91C1C">Eliminates 100% net-30 post-delivery payments. Ensures upfront commitment deposit.</text>
+    </g>
+
+    <g transform="translate(0, 360)">
+      <rect width="260" height="90" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="15" y="25" font-size="11" font-weight="700" fill="#334155">4. Print &amp; PDF Styling</text>
+      <text x="15" y="45" font-size="10" fill="#64748B">Automatic @media print CSS hides menus, generating a clean executive PDF presentation.</text>
+    </g>
+  </g>
+</svg>
